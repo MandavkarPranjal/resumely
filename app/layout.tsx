@@ -14,7 +14,21 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Resumely — Resume Studio",
-  description: "A power-user resume builder studio. Create stunning resumes with multiple templates and export to PDF.",
+  description:
+    "A power-user resume builder studio. Create stunning resumes with multiple templates and export to PDF.",
+  openGraph: {
+    title: "Resumely — Resume Studio",
+    description:
+      "Create stunning resumes with multiple templates. Export to PDF instantly.",
+    type: "website",
+    siteName: "Resumely",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Resumely — Resume Studio",
+    description:
+      "Create stunning resumes with multiple templates. Export to PDF instantly.",
+  },
 };
 
 export default function RootLayout({
